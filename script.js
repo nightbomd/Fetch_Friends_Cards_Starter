@@ -16,6 +16,8 @@ loadButton.addEventListener("click", loadFriends);
 // loadFriends: CURRENT VERSION, uses XMLHttpRequest.
 // Checkpoints 2 and 3 replace this whole function.
 // -------------------------------------------------------------
+
+// unfortunatley I did not initliazie so I do not have commits for each section mb gang
 async function loadFriends() {
 
   statusMessage.classList.remove("error");
